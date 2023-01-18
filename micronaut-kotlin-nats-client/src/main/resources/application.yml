@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: micronautKotlinNatsClient
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+nats:
+  addresses:
+    - "nats://localhost:4222"

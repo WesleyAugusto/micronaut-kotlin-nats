@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: micronautKotlinNatsListener
+  server:
+    port: 8081
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+nats:
+  addresses:
+    - "nats://localhost:4222"
